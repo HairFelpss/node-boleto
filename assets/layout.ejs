@@ -60,6 +60,7 @@
   .Al{text-align:left}
   .At{vertical-align:top}
   .Ab{vertical-align:bottom}
+  .VAc{vertical-align:center}
   .ct td, .cp td{padding-left:6px;border-left:solid 1px #000}
   .cpN{font:bold 10px arial;color:black}
   .ctN{font:9px "arial narrow";color:#000033}
@@ -182,7 +183,7 @@
         <tr class="BHead">
 			<td class="imgLogo Al"><img src="<%= logoURL %>" /></td>
             <td class="barra"></td>
-			<td class="w72 Ab Ac ld"><%= boleto['codigo_banco'] %></td>
+			<td class="w72 VAc Ac ld"><%= boleto['codigo_banco'] %></td>
             <td class="barra"></td>
 			<td class="w500 Ar Ab ld" id="linha-digitavel-1"><%= boleto['linha_digitavel'] %></td>
         </tr>
@@ -240,18 +241,18 @@
             <td></td>
         </tr>
     </table><table class="w666">
-        <tr class="ctN h13">
+        <tr class="ctN h13 ct">
             <td class="pL6">Instruções</td>
             <td class="w180 Ar">Autenticação mecânica</td>
         </tr>
-        <tr class="cpN h12">
+        <tr class="cpN h12 ct">
             <td class="pL6"><%- boleto['instrucoes'] || '' %></td>
             <td class="pL6 Ar"></td>
         </tr>
     </table><table class="ctN w666">
-        <tr class="h13"><td /></tr>
-        <tr class="h13"><td /></tr>
-        <tr><td class="Ar">Corte na linha pontilhada</td></tr>
+        <tr class="h13 ct"><td /></tr>
+        <tr class="h13 ct"><td /></tr>
+        <tr class="ct"><td class="Ar">Corte na linha pontilhada</td></tr>
         <tr><td class="cut" /></tr>
         <tr class="h13"><td /></tr>
         <tr class="h13"><td /></tr>
@@ -259,7 +260,7 @@
         <tr class="BHead">
 			<td class="imgLogo Al"><img src="<%= logoURL %>" /></td>
             <td class="barra"></td>
-			<td class="w72 Ab Ac ld"><%= boleto['codigo_banco'] %></td>
+			<td class="w72 VAc Ac ld"><%= boleto['codigo_banco'] %></td>
             <td class="barra"></td>
 			<td class="w500 Ar Ab ld" id="linha-digitavel-2"><%= boleto['linha_digitavel'] %></td>
         </tr>
