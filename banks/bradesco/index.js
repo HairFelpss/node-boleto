@@ -3,8 +3,7 @@ var formatters = require("../../lib/formatters");
 var ediHelper = require("../../lib/edi-helper");
 
 exports.options = {
-  logoURL:
-    "https://www.pngitem.com/pimgs/m/2-26543_bradesco-logo-svg-hd-png-download.png",
+  logoURL: "https://assets.pagar.me/boleto/images/bradesco.jpg",
   codigo: "237",
 };
 
