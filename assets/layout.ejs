@@ -61,7 +61,7 @@
   .At{vertical-align:top}
   .Ab{vertical-align:bottom}
   .VAc{vertical-align:center}
-  .ct td, .cp td{padding-left:6px;border-left:solid 1px #000}
+  .ct td, .cp td{padding-left:3px;padding-right:3px;border-left:solid 1px #000; border-right:solid 1px #000}
   .cpN{font:bold 10px arial;color:black}
   .ctN{font:9px "arial narrow";color:#000033}
   .pL0{padding-left:0px}
@@ -106,6 +106,7 @@
   .w164{width:164px}
   .w180{width:180px}
   .w182{width:182px}
+  .w184{width:184px}
   .w186{width:186px}
   .w192{width:192px}
   .w250{width:250px}
@@ -121,7 +122,7 @@
   .w667{width:667px}
   .BHead td{border-bottom:solid 2px #000}
   .EcdBar{height:50px;vertical-align:bottom}
-  .rc6 td{vertical-align:top;border-bottom:solid 1px #000;border-left:solid 1px #000}
+  .rc6 td{vertical-align:top;border-bottom:solid 1px #000;border-left:solid 1px #000;border-right:solid 1px #000;}
   .rc6 div{padding-left:6px}
   .rc6 .t{font:9px "arial narrow";color:#000033;height:13px}
   .rc6 .c{font:bold 10px arial;color:black;height:12px}
@@ -318,11 +319,11 @@
         </tr>
     </table><table class="w666">
         <tr class="rc6">
-            <td class="w478">
+            <td class="w472">
                 <div class="ctN pL10">Instruções (Texto de responsabilidade do beneficiário)</div>
 				<div class="cpN pL10"><%- boleto['instrucoes'] || '' %></div>
             </td>
-            <td class="w186">
+            <td class="w184">
                 <div class="t">(-) Desconto / Abatimentos</div>
                 <div class="c BB"></div>
                 <div class="t">(-) Outras deduções</div>
@@ -343,11 +344,11 @@
 			<td class="At"><%- boleto['pagador'] || '' %></td>
         </tr>
     </table><table class="w666">
-        <tr class="rBb">
+        <tr class="ct rBb">
             <td class="w478 BL">
                 <div class="cpN pL6"></div>
             </td>
-            <td class="Ab BL">
+            <td class="Ab BL w182">
                 <div class="ctN pL6">Cód. baixa</div>
             </td>
         </tr>
