@@ -6,7 +6,8 @@
   "scripts": {
     "lint": "eslint .",
     "test": "nyc --silent --all mocha \"./test/unit/**/*.spec.js\" && nyc --silent --all mocha \"./test/integration/**/*.spec.js\" && nyc --silent --all mocha \"./test/e2e/**/*.spec.js\"",
-    "cover-report": "nyc report --reporter=html --reporter=lcov --report-dir=./coverage"
+    "cover-report": "nyc report --reporter=html --reporter=lcov --report-dir=./coverage",
+    "start": "node ./examples/bradesco-emission.js"
   },
   "repository": {
     "type": "git",
