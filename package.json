@@ -14,7 +14,8 @@
     "url": "https://github.com/pagarme/node-boleto"
   },
   "dependencies": {
-    "ejs": "2.5.5"
+    "ejs": "2.5.5",
+    "node-boleto": "HairFelpss/node-boleto"
   },
   "devDependencies": {
     "chai": "^3.5.0",
