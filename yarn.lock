@@ -1492,12 +1492,6 @@ next-tick@~1.0.0:
   resolved "https://registry.yarnpkg.com/next-tick/-/next-tick-1.0.0.tgz#ca86d1fe8828169b0120208e3dc8424b9db8342c"
   integrity sha1-yobR/ogoFpsBICCOPchCS524NCw=
 
-node-boleto@HairFelpss/node-boleto:
-  version "2.2.1"
-  resolved "https://codeload.github.com/HairFelpss/node-boleto/tar.gz/0e05ee99540e62a2c487998c9f58dce06a3cdbc3"
-  dependencies:
-    ejs "2.5.5"
-
 node-preload@^0.2.1:
   version "0.2.1"
   resolved "https://registry.yarnpkg.com/node-preload/-/node-preload-0.2.1.tgz#c03043bb327f417a18fee7ab7ee57b408a144301"
